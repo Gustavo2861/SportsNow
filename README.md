@@ -1,5 +1,5 @@
 # SportsNow
-Facilitar o encontro e fomação de times para praticas esportivas
+Plataforma digital que tem o objetivo de facilitar o encontro e fomação de times para praticas esportivas
 ## Equipe SportsNow
 - Alyson da Silva (...)
 - Andreia Mayumi [@AndreiaMayumi](https://github.com/AndreiaMayumi)
