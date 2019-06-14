@@ -4,6 +4,12 @@
             Principal
         </title>
             <link rel="shortcut icon" href="https://mail.google.com/mail/u/0?ui=2&ik=13d54fc504&attid=0.1&permmsgid=msg-f:1633831846410701982&th=16ac89686c07cc9e&view=att&disp=safe&realattid=16ac895f68e110fabc11">
+        
+            <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        
+            
+
+
         <style>
             body{
                     background-color:rgb(255, 81, 0);
@@ -30,15 +36,21 @@
            position: absolute;
            color: black;
         }
+
+        h4 {
+            font-size: 20px;
+           color: white;
+        }
         p{
             color: white;
         }
                 .Principal{
                     width: 100%;
                     background-color: black;
-                    display:initial;
                     justify-content: center;
                     border-radius: 10px;
+                    position: absolute;
+                    top: 35%;
                     
                 }
                 .menu{
@@ -54,8 +66,8 @@
 
                 .logo{
                 position: absolute;
-                left: 37px;
-                top: 50px;
+                left: 1%;
+                top:  3%;
             }
             .noticia1{
                 width: 64%;
@@ -101,6 +113,17 @@
                 border-radius: 10px;
             }
         
+        .fas{
+            position: absolute;
+            left: 18%;
+            top: 85%;
+        }
+
+        .seta{
+            position: absolute;
+            left: 87%;
+            top: 85%;
+        }
         </style>
 
         
@@ -108,7 +131,7 @@
 
     <body>
         <h1>Sports Now</h1>
-    <h3 style="right: 8% ; top:25% "> <a href="Sport Now - Login.html">Entrar  |</a></h3>
+    <h3 style="right: 8% ; top:25%;"> <a href="Sport Now - Login.html">Entrar  |</a></h3>
      <h3 style="right: 2% ; top: 25%">  <a href="Cadastro.html"  >Cadastrar</a></h3>  
         <div class="logo">
                 <img src="https://mail.google.com/mail/u/0?ui=2&ik=13d54fc504&attid=0.1&permmsgid=msg-f:1633831846410701982&th=16ac89686c07cc9e&view=att&disp=safe&realattid=16ac895f68e110fabc11" alt="logo" style = "width:200px">
@@ -125,7 +148,13 @@
         <form action=" / action_page.php">
             <div style="text-align:center">
                 <fieldset class="menu">
-                        <p>Times</p>
+                        <h4>Times</h4>
+                        <p><a href="Cadastro.html"  >Interclasse</a></p>  
+                        <p><a href="Cadastro.html"  >Oficial</a></p>  
+                        
+                        <h4><a href="Calendario.html"  >Calendário</a></h4>  
+                        <h4><a href="Sobre.html"  >Sobre</a></h4>  
+                        
                 </fieldset>
             </div>
         </form>
@@ -133,7 +162,6 @@
         <form action=" / action_page.php">
             <div style="text-align:center">
                 <fieldset class="noticia1">
-                        
                 </fieldset>
             </div>
         </form>
@@ -163,7 +191,7 @@
         </form>
 
         <i style='font-size:24px' class='fas'>&#xf137;</i>
-        <i style='font-size:24px' class='fas'>&#xf138;</i>
+        <i style='font-size:24px' class='seta'>&#xf138;</i>
 
     </body>
 </html>
