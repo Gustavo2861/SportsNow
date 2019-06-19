@@ -5,9 +5,8 @@
         </title>
             <link rel="shortcut icon" href="https://mail.google.com/mail/u/0?ui=2&ik=13d54fc504&attid=0.1&permmsgid=msg-f:1633831846410701982&th=16ac89686c07cc9e&view=att&disp=safe&realattid=16ac895f68e110fabc11">
         
-            <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-        
-            
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
 
 
         <style>
@@ -128,8 +127,15 @@
 
         .addNoticia{
             position: absolute;
-            left: 78%;
-            top: 85%;
+            left: 72%;
+            top: 79%;
+        }
+
+        .btn{
+            float:left;
+            cursor:pointer;
+            background-color: orange;
+            border-color: orange;
         }
 
         #txtBusca{
@@ -141,12 +147,10 @@
         border:none;
         height:32px;
         width:226px;
+        
         }
  
-        #btnBusca{
-        float:left;
-        cursor:pointer;
-        }
+        
  
         #divBusca img{
         float:left;
@@ -163,6 +167,8 @@
         position: absolute;
         left: 20%;
         top: 40%;
+        background-color: white;
+        border-color: rgb(255, 115, 0);
         }   
         
         </style>
@@ -172,7 +178,7 @@
 
     <body style="background-image:url('https://img.elo7.com.br/product/zoom/1767A05/painel-campo-de-futebol-festa-futebol.jpg');">
         <h1>Sports Now</h1>
-    <h3 style="right: 8% ; top:25%;"> <a href="Sport Now - Login.html">Entrar  |</a></h3>
+    <h3 style="right: 8% ; top:25%;"> <a href="Sport Now - Login.html" >Entrar  |</a></h3>
      <h3 style="right: 2% ; top: 25%">  <a href="Cadastro.html"  >Cadastrar</a></h3>  
         <div class="logo">
                 <img src="https://mail.google.com/mail/u/0?ui=2&ik=13d54fc504&attid=0.1&permmsgid=msg-f:1633831846410701982&th=16ac89686c07cc9e&view=att&disp=safe&realattid=16ac895f68e110fabc11" alt="logo" style = "width:200px">
@@ -193,7 +199,7 @@
                         <p><a href="Cadastro.html"  >Interclasse</a></p>  
                         <p><a href="Cadastro.html"  >Oficial</a></p>  
                         
-                        <h4><a href="Calendario.html"  >Calendário</a></h4>  
+                        <h4><a href="Calendario.html" >Calendário</a></h4>  
                         <h4><a href="Sobre.html"  >Sobre</a></h4>  
                         
                 </fieldset>
@@ -232,17 +238,24 @@
         </form>
 
         <div id="divBusca">
-            <img src="search3.png" alt=""/>
             <input type="text" id="txtBusca" placeholder="Buscar..."/>
-            <img src="https://images.vexels.com/media/users/3/141169/isolated/preview/890e77d2c173f7eca9258d4a3ec2422f-bot--o-laranja-de-pesquisa-by-vexels.png" alt="Buscar..." id="btnBusca" style = "width:200px"/>
+            <form action=" / action_page.php">
+                <div style="text-align:center">
+                    <fieldset class="btn">
+
+                    </fieldset>
+                </div>
+            </form>
+           
           </div>
 
           <div class="addNoticia">
-            <img src="/imagens/addImagem.png" alt="addImagem" style = "width:200px">
+            <img src="addFoto.png" alt="addImagem" style = "width:100px">
+            <p>Adicionar Notícia</p>
       </div>
 
-        <i style='font-size:24px' class='fas'>&#xf137;</i>
-        <i style='font-size:24px' class='seta'>&#xf138;</i>
+        <i style= "font-size:24px" class= "fas" > &#xf137;</i>
+        <i style= " font-size:24px" class= "fas seta" > &#xf138;</i>
 
     </body>
 </html>
