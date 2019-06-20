@@ -9,3 +9,14 @@ Plataforma digital que tem o objetivo de facilitar o encontro e fomação de tim
 
 
 ## TAREFAS
+
+### Telas
+- Cadastro
+- Login
+- Principal
+- Perfil
+- Gerenciamento de Times
+- Criação de Times
+- Calendário
+- Interclasse
+- Oficial
