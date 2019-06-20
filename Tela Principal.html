@@ -68,6 +68,18 @@
                     
                 }
 
+                .calendar{
+                    position: absolute;
+                    top: 57%;
+                    left: 5%;
+                }
+
+                .time{
+                    position: absolute;
+                    top: 9%;
+                    left: 15%;
+                }
+
                 .logo{
                 position: absolute;
                 left: 1%;
@@ -146,6 +158,7 @@
             height: 37px;
 
         }
+        
 
         #txtBusca{
         float:left;
@@ -205,10 +218,12 @@
         <form action=" / action_page.php">
             <div style="text-align:center">
                 <fieldset class="menu">
+                        <img class="time" src="time.png" alt="Calendário" style="width: 20px">
                         <h4>Times</h4>
                         <p><a href="Cadastro.html"  >Interclasse</a></p>  
                         <p><a href="Cadastro.html"  >Oficial</a></p>  
-                        
+                        <h4>Peladas</h4>
+                        <img class="calendar" src="calendar.png" alt="Calendário" style="width: 20px">
                         <h4><a href="Calendario.html" >Calendário</a></h4>  
                         <h4><a href="Sobre.html"  >Sobre</a></h4>  
                         
@@ -251,16 +266,17 @@
         <div id="divBusca">
             <input type="text" id="txtBusca" placeholder="Buscar..."/>
             
-                <div class="btn">
-                        <h4>Pesquisar</h4>
+                <div class="btn" >
+                        <h4>Pesquisar Time</h4>
                         <img src="https://images.vexels.com/media/users/3/132066/isolated/preview/71646d7673e8847ab07b3b7e78928777-pesquisar---cone-de-c--rculo-by-vexels.png" alt="pesquisa" style="width: 50px">
                     
                 </div>
            
           </div>
 
-          <div class="addNoticia">
-            <img src="addFoto.png" alt="addImagem" style = "width:100px">
+
+        <div class="addNoticia">
+            <img src="addFotoBranca.png" alt="addImagem" style = "width:100px">
             <p>Adicionar Notícia</p>
       </div>
 
