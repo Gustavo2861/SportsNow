@@ -1,7 +1,7 @@
 # SportsNow
 Plataforma digital que tem o objetivo de facilitar o encontro e fomação de times para praticas esportivas.
 ## Equipe SportsNow
-- Alyson Silva [@alisaoff](https://github.com/alisaoff)
+- Alyson da Silva [@alisaoff](https://github.com/alisaoff)
 - Andreia Mayumi [@AndreiaMayumi](https://github.com/AndreiaMayumi)
 - Diogo Spinelli da Silva [@DiogoSpinelli20](https://github.com/DiogoSpinelli20) 
 - Gustavo Pereira Andrade [@Gustavo2861](https://github.com/Gustavo2861)
@@ -9,14 +9,3 @@ Plataforma digital que tem o objetivo de facilitar o encontro e fomação de tim
 
 
 ## TAREFAS
-
-### Telas
-- Cadastro
-- Login
-- Principal
-- Perfil
-- Gerenciamento de Times
-- Criação de Times
-- Calendário
-- Interclasse
-- Oficial
