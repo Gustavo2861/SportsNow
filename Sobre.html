@@ -16,10 +16,13 @@
                     margin-bottom: 8px;
                     margin-right: 8px;
                     margin-left: 8px;
+                    background-image:url('https://img.elo7.com.br/product/zoom/1767A05/painel-campo-de-futebol-festa-futebol.jpg'); 
+                    max-width: 100%; 
+                    height: auto;
                     }
          h1 {
                     font-size: 70px;
-                    color:black;
+                    color:white;
                     text-align: center;
                 }
 
@@ -27,15 +30,36 @@
             font-size: 40px;
             text-align: center;
         }
+
+        h3 {
+           text-align: right;
+           position: absolute;
+           color: black;
+        }
+
         h4 {
             font-size: 20px;
            color: white;
         }
 
+        h5{
+            color: white;
+            font-size: 15px;
+        }
+
         p{
+            
             text-justify: auto;
             text-align:justify;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            
 
+        }
+
+        a { 
+            color: inherit;
+            text-decoration: none;
         }
 
         .faixa{
@@ -48,7 +72,7 @@
                     
                 }
 
-        .menu{
+                .menu{
                     width: 10%;
                     height: 60%;
                     background-color: black;
@@ -59,10 +83,55 @@
                     
                 }
 
-        .logo{
+                .home{
+                    width: 30px;
+                    position: absolute;
+                    top: 8%;
+                    left: 10%;
+                }
+                .calendar{
+                    width: 20px;
+                    position: absolute;
+                    top: 72%;
+                    left: 5%;
+                }
+
+                .time{
+                    width: 35px;
+                    position: absolute;
+                    top: 20%;
+                    left: 10%;
+                }
+
+                .Peladas{
+                    width: 25px;
+                    position: absolute;
+                    top: 58%;
+                    left: 10%;
+                }
+
+                .Sobre{
+                    width: 25px;
+                    position: absolute;
+                    top: 86%;
+                    left: 10%;
+                }
+
+
+                .logo{
                      position: absolute;
                      left: 1%;
                      top:  3%;
+                }
+
+                .boxText{
+                    background-color: rgb(63, 62, 62, 0.8);
+                    border-radius: 10px;
+                    width: 70%;
+                    position: absolute;
+                    left: 20%;
+                    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+
                 }
                 
         </style>
@@ -70,18 +139,25 @@
 
     <body>
             <div class="logo">
-                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=13d54fc504&attid=0.1&permmsgid=msg-f:1633831846410701982&th=16ac89686c07cc9e&view=att&disp=safe&realattid=16ac895f68e110fabc11" alt="logo" style = "width:200px">
+                    <img src="LogoBranco.png" alt="logo" style = "width:200px">
               </div>
         <h1>Sports Now</h1>
+        <h3 style="right: 8% ; top:25%;"> <a href="Sport Now - Login.html" >Entrar  |</a></h3>
+        <h3 style="right: 2% ; top: 25%">  <a href="Cadastro.html"  >Cadastrar</a></h3>  
         <form action=" / action_page.php">
             <div style="text-align:center">
                 <fieldset class="menu">
+                        <img class="home" src="home.png" alt="home">
+                        <h4><a href="Tela Principal.html">Home</a></h4>
+                        <img class="time" src="apitoColor.png" alt="Calendário">
                         <h4>Times</h4>
-                        <p><a href="Cadastro.html"  >Interclasse</a></p>  
-                        <p><a href="Cadastro.html"  >Oficial</a></p>  
-                        
-                        <h4><a href="Calendario.html"  >Calendário</a></h4>  
-                        <h4><a href="Sobre.html"  >Sobre</a></h4>  
+                        <h5><a href="Cadastro.html"  >Interclasse</a></h5>  
+                        <h5><a href="Cadastro.html"  >Oficial</a></h5>  
+                        <img class="Peladas" src="time.png" alt="Peladas">
+                        <h4><a href="Calendario.html" >Peladas</a></h4>
+                        <img class="calendar" src="calendar.png" alt="Calendário">
+                        <h4><a href="Calendario.html" >Calendário</a></h4>  
+                          
                         
                 </fieldset>
             </div>
@@ -94,10 +170,20 @@
                 </fieldset>
             </div>
         </form>
+        
         <h2>Sobre</h2>
-        <p>O projeto do Aplicativo Sports Now surgiu da necessidade de ampliar e facilitar a formação de times e a procura por partidas  de diversas modalidades. Buscando assim a integração da prática de esporte de forma a impulsionar a interação social através de um bate-papo online, onde será possível a criação de um grupo, para que o time converse entre eles, discutindo as estratégias, posições e muito mais. </p>
-        <p>O Aplicativo Sports Now é um sistema que serve como uma plataforma em que usuários possam encontrar e organizar partidas de diversas modalidades de esportes de caráter competitivo ou casual, facilitando assim a interação social e a prática de esportes.</p>
-        <p>Esse sistema tem como objetivo facilitar o acesso das pessoas à prática de esportes e possibilitar encontros de pessoas para praticar determinados esportes, assim possibilitando uma maior integração entre possíveis usuários em torno da prática de esportes, que é uma ótima forma de desenvolver a mente, o corpo e relações sociais.</p>
+        <form action=" / action_page.php">
+            <div style="text-align:center">
+                <fieldset class="boxText">
+                    <p>O projeto do Aplicativo Sports Now surgiu da necessidade de ampliar e facilitar a formação de times e a procura por partidas  de diversas modalidades. Buscando assim a integração da prática de esporte de forma a impulsionar a interação social através de um bate-papo online, onde será possível a criação de um grupo, para que o time converse entre eles, discutindo as estratégias, posições e muito mais. </p>
+                    <p>O Aplicativo Sports Now é um sistema que serve como uma plataforma em que usuários possam encontrar e organizar partidas de diversas modalidades de esportes de caráter competitivo ou casual, facilitando assim a interação social e a prática de esportes.</p>
+                    <p>Esse sistema tem como objetivo facilitar o acesso das pessoas à prática de esportes e possibilitar encontros de pessoas para praticar determinados esportes, assim possibilitando uma maior integração entre possíveis usuários em torno da prática de esportes, que é uma ótima forma de desenvolver a mente, o corpo e relações sociais.</p>
+                </fieldset>
+            </div>
+        </form>
+
+        
+        
 
     </body>
 </html>
