@@ -1,0 +1,235 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #FF8C00;
+  font-family: "Arial", "sans-serif";
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 0px;/*tamanho-cabeçalho*/ 
+}
+
+.menu {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header .logo {
+  color: rgb(0,0,0);
+  font-family: fantasy;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 80px;
+  float: left;
+}
+
+/*posição-botões*/
+header nav {
+  float: right;
+  line-height: 80px;
+}
+
+/*estrutura-botões*/
+header nav a{
+  display: inline-block;
+  color: #363636;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  line-height: normal;
+  font-size: 15px;
+  font-weight: bold;
+  background: #FFFAFA;
+  border-radius: 45px;
+}
+
+header nav a1{
+  display: inline-block;
+  color: #FF8C00;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  line-height: normal;
+  font-size: 15px;
+  font-weight: bold;
+  background: #FFFAFA;
+  border-radius: 45px;
+}
+
+header nav a:hover{
+  background: #FF8C00;
+  border-radius: 45px;
+  transition: 1s;
+}
+
+header nav a1:hover{
+  background: #cccccc;
+  border-radius: 45px;
+  transition: 1s;
+}
+
+
+/*formatação-menu-tamamho-tela*/
+@media screen and (max-width: 950px){
+  header .logo,
+  header nav {
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+}
+
+#showcase {
+background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.estudopratico.com.br/wp-content/uploads/2019/01/esportes-ingles.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 80vh; 
+}
+
+#showcase h1{
+  color: #fff;
+  text-align: center;
+  margin-top: 170px;
+  font-size: 75px;
+  font-weight: 400;
+  font-family: fantasy;
+  margin-bottom: 20px;
+}
+
+#showcase h11{
+  color: #FF8C00;
+  text-align: center;
+  margin-top: 170px;
+  font-size: 75px;
+  font-family: fantasy;
+  margin-bottom: 20px;
+}
+
+#showcase h2{
+  color: #FF8C00;
+  margin-top: 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: fantasy;
+  margin-bottom: 20px;
+}
+
+
+#showcase p{
+  color: #FF8C00;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: 200;
+}
+
+
+.campeonato{
+  width: 88%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#newslatter {
+  padding: 40px;
+  color: #fff;
+  background: #fff;
+}
+
+.corpo{
+  display: flex;
+  width: 1280px;
+  margin: 70px auto ;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #fff;
+}
+
+.corpo .caixa {
+  position: relative;
+  width: 300px;
+  height: 380px;
+  background: #ff0;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.corpo .caixa .caixa-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.corpo .caixa .caixa-img img {
+  max-width: 100%;
+  transition: transform 2s; 
+}
+
+.corpo .caixa:hover .caixa-img img {
+  transform: scale(1.2);
+}
+
+.corpo .caixa .titulo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgb(0, 0, 0, 0.2);
+}
+
+.corpo .caixa .titulo .formatacao {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 80px;
+  color: #fff;
+}
+
+.corpo .caixa .titulo .formatacao2 {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 70px;
+  color: #fff;
+}
+
+.corpo .caixa .titulo .formatacao3 {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 48px;
+  color: #fff;
+}
+
+.corpo .caixa .titulo .formatacao h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  color:#fff;
+}
+
+
+.corpo .caixa .titulo .formatacao2 h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  color:#fff;
+}
+
+.corpo .caixa .titulo .formatacao3 h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  color:#fff;
+}
