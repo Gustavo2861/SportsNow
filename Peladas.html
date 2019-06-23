@@ -1,0 +1,466 @@
+<html>
+    <head>
+            <title>
+                    Peladas
+                </title>
+                    <link rel="shortcut icon" href="https://mail.google.com/mail/u/0?ui=2&ik=13d54fc504&attid=0.1&permmsgid=msg-f:1633831846410701982&th=16ac89686c07cc9e&view=att&disp=safe&realattid=16ac895f68e110fabc11">
+          
+        <style>
+
+            body{
+                display: block;
+                margin: 8px;
+                margin-top: 120px;
+                margin-bottom: 8px;
+                margin-right: 8px;
+                margin-left: 8px;
+                background-image:url('https://img.elo7.com.br/product/zoom/1767A05/painel-campo-de-futebol-festa-futebol.jpg'); 
+                max-width: 100%; 
+                height: auto;
+                    
+                
+            }
+            .Principal{
+                width: 100%;
+                background-color: black;
+                justify-content: center;
+                border-radius: 10px;
+                position: absolute;
+                top: 35%;
+                    
+            }
+
+            .logo{
+                position: absolute;
+                left: 1%;
+                top:  3%;
+            }
+
+            .menu{
+                width: 10%;
+                height: 60%;
+                background-color: black;
+                justify-content: left;
+                position: absolute;
+                top: 38%;
+                border-radius: 10px;
+                    
+            }
+
+            .home{
+                width: 30px;
+                position: absolute;
+                top: 8%;
+                left: 10%;
+            }
+
+            .calendar{
+                width: 20px;
+                position: absolute;
+                top: 72%;
+                left: 5%;
+            }
+
+            .time{
+                width: 35px;
+                position: absolute;
+                top: 20%;
+                left: 10%;
+            }
+
+            .Peladas{
+                width: 25px;
+                position: absolute;
+                top: 58%;
+                left: 10%;
+            }
+
+            .Sobre{
+                width: 25px;
+                position: absolute;
+                top: 86%;
+                left: 10%;
+            }
+
+            .pelada1{
+                width: 55%;
+                height: 10%;
+                background-color: black;
+                justify-content: left;
+                position: absolute;
+                top: 60%;
+                left: 15%;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px rgba(0,0,0,1);
+            }
+
+            .pelada2{
+                width: 55%;
+                height: 10%;
+                background-color: black;
+                justify-content: left;
+                position: absolute;
+                top: 75%;
+                left: 15%;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px rgba(0,0,0,1);
+            }
+
+            .pelada3{
+                width: 55%;
+                height: 10%;
+                background-color: black;
+                justify-content: left;
+                position: absolute;
+                top: 90%;
+                left: 15%;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px rgba(0,0,0,1);
+            }
+
+            .pelada4{
+                width: 55%;
+                height: 10%;
+                background-color: black;
+                justify-content: left;
+                position: absolute;
+                top: 105%;
+                left: 15%;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px rgba(0,0,0,1);
+            }
+
+            .criarPelada{
+                width: 15%;
+                height: 55%;
+                background-color: black;
+                justify-content: left;
+                position: absolute;
+                top: 60%;
+                left: 75%;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px rgba(0,0,0,1);
+            }
+
+            .btn{
+                float:left;
+                cursor:pointer;
+                background-color: orange;
+                border-color: orange;
+                width: 224px;
+                right: 0%;
+                height: 37px;
+            }
+        
+            .filtro1{
+                width: 5%;
+                height: 3%;
+                background-color: black;
+                justify-content: left;
+                position: absolute;
+                top: 50%;
+                left: 20%;
+                border-radius: 15px;
+                box-shadow: 5px 5px 5px rgba(0,0,0,1);
+            }
+
+            .filtro2{
+                width: 5%;
+                height: 3%;
+                background-color: black;
+                justify-content: left;
+                position: absolute;
+                top: 50%;
+                left: 27%;
+                border-radius: 15px;
+                box-shadow: 5px 5px 5px rgba(0,0,0,1);
+            }
+
+            .filtro3{
+                width: 5%;
+                height: 3%;
+                background-color: black;
+                justify-content: left;
+                position: absolute;
+                top: 50%;
+                left: 34%;
+                border-radius: 15px;
+                box-shadow: 5px 5px 5px rgba(0,0,0,1);
+            }
+
+            .filtro4{
+                width: 5%;
+                height: 3%;
+                background-color: black;
+                justify-content: left;
+                position: absolute;
+                top: 50%;
+                left: 41%;
+                border-radius: 15px;
+                box-shadow: 5px 5px 5px rgba(0,0,0,1);
+            }
+
+            .filtro5{
+                width: 5%;
+                height: 3%;
+                background-color: black;
+                justify-content: left;
+                position: absolute;
+                top: 50%;
+                left: 48%;
+                border-radius: 15px;
+                box-shadow: 5px 5px 5px rgba(0,0,0,1);
+            }
+
+            #txtBusca{
+                float:left;
+                background-color:transparent;
+                padding-left:5px; 
+                font-size:18px;
+                border:none;
+                height:32px;
+                width:226px;
+            }
+ 
+        
+ 
+            #divBusca img{
+                float:left;
+                position: absolute;
+                left: 90%;
+                top: -5%;
+            }      
+ 
+            #divBusca{
+                border:solid 10px rgba(47, 79, 79, 0.8);
+                border-radius:10px;
+                height:37px;
+                width:450px;
+                position: absolute;
+                left: 20%;
+                top: 40%;
+                background-color: white;
+                border-color: rgb(255, 115, 0);
+            }
+
+            /* Efeitos do texto quando o mouse estive em cima da Imagem */ 
+            #content ul li:hover h3{
+                border: 1px solid f00;
+                opacity:1;
+                -moz-opacity:1;
+                filter:alpha(opacity=100);
+                background-color:rgb(255, 81, 0);
+                width: 100%; 
+                height: 100%; 
+                border-radius: 15px;
+        
+            }
+
+            #content ul li a h3{ /* Espaço da mensagem que ira aparecer */
+                text-align: justify;
+                text-align: initial;
+                width:300px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+            }
+
+                /* Carecteristicas de tudo que esta dentro da Div e com Link */
+            #content ul li a{
+                display:block;
+                font-size:14px;
+                margin:0 auto;
+                padding: 10px;
+                float:left;
+            }   
+
+            h1{
+                text-align: center;
+                font-size: 70px;
+                color: white;
+
+            }
+
+            h2{
+                text-align: center;
+                font-size: 40px;
+            }
+            h3 {
+                text-align: right;
+                position: absolute;
+                color: black;
+            }
+
+            h4 {
+                font-size: 20px;
+                color: white;
+            }
+
+            h5{
+                color: white;
+                font-size: 15px;
+            }
+
+            h6{
+                color: white;
+                text-align: initial;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+            p{
+                color: white;
+            }
+
+            a { 
+                color: inherit;
+                text-decoration: none;
+            } 
+        </style>
+        
+    </head>
+        <body>
+            <h1>Sports Now</h1>
+            <h3 style="right: 8% ; top:25%;"> <a href="Sport Now - Login.html" >Entrar  |</a></h3>
+            <h3 style="right: 2% ; top: 25%">  <a href="Cadastro.html"  >Cadastrar</a></h3>  
+            <div class="logo">
+                <img src="LogoBranco.png" alt="logo" style = "width:200px">
+            </div>
+            <form action=" / action_page.php">
+                <div style="text-align:center">
+                    <fieldset class="Principal">
+                    </fieldset>
+                </div>
+            </form>
+
+            <h2>Peladas</h2>
+            <form action=" / action_page.php">
+                <div style="text-align:center">
+                    <fieldset class="menu">
+                            <img class="home" src="home.png" alt="home">
+                            <h4><a href="Tela Principal.html">Home</a></h4>
+                            <img class="time" src="apitoColor.png" alt="Calendário">
+                            <h4>Times</h4>
+                            <h5><a href="Cadastro.html"  >Interclasse</a></h5>  
+                            <h5><a href="Oficial.html"  >Oficial</a></h5>  
+                            <img class="Peladas" src="time.png" alt="Peladas">
+                            <h4><a href="Calendario.html" >Peladas</a></h4>
+                            <img class="calendar" src="calendar.png" alt="Calendário">
+                            <h4><a href="Calendario.html" >Calendário</a></h4>  
+                            <img class="Sobre" src="sobre.png" alt="Sobre">
+                            <h4><a href="Sobre.html"  >Sobre</a></h4>  
+                            
+                    </fieldset>
+                </div>
+            </form>
+            <form action=" / action_page.php">
+                <div style="text-align:center">
+                    <fieldset class="pelada1">
+                        <h6>PELADA DO MARCÃO</h6>
+                    </fieldset>
+                </div>
+            </form>
+
+            <form action=" / action_page.php">
+                <div style="text-align:center">
+                    <fieldset class="pelada2">
+                        <h6>PELADA DO JUNINHO</h6>
+                    </fieldset>
+                </div>
+            </form>
+
+            <form action=" / action_page.php">
+                <div style="text-align:center">
+                    <fieldset class="pelada3">
+                        <h6>PELADA DO PAULÃO</h6>
+                    </fieldset>
+                </div>
+            </form>
+ 
+            <form action=" / action_page.php">
+                <div style="text-align:center">
+                    <fieldset class="pelada4">
+                        <h6>JOGO DAS ESTRELAS</h6>
+                    </fieldset>
+                </div>
+            </form>
+
+            <form action=" / action_page.php">
+                <div style="text-align:center">
+                    <fieldset class="criarPelada">
+                        <h6>CRIAR PELADA</h6>
+                    </fieldset>
+                </div>
+            </form>
+
+            <div id="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                    
+                        <div class="btn" >
+                                <h4 style="position: absolute; top:-20px; left: 55%;">Pesquisar Pelada</h4>
+                                <img src="https://images.vexels.com/media/users/3/132066/isolated/preview/71646d7673e8847ab07b3b7e78928777-pesquisar---cone-de-c--rculo-by-vexels.png" alt="pesquisa" style="width: 50px">
+                            
+                        </div>
+                   
+                  </div>
+                  <div id="content">
+                        <ul>
+                            <li>
+                    <a href="#">
+                <form action=" / action_page.php">
+                    <div style="text-align:center">
+                        <fieldset class="filtro1">
+                            <h3 style="position: absolute; top:-7px; left: 20%;font-family: Arial, Helvetica, sans-serif; color: white;">Estado</h3>
+                        </fieldset>
+                    </div>
+                </form>
+                </a>
+            </li>
+                    <li>
+                    <a href="#">
+                <form action=" / action_page.php">
+                    <div style="text-align:center">
+                        <fieldset class="filtro2">
+                            <h3 style="position: absolute; top:-7px; left: 20%;font-family: Arial, Helvetica, sans-serif; color: white;">Cidade</h3>
+                        </fieldset>
+                    </div>
+                </form>
+                </a>
+            </li>
+                    <li>
+                    <a href="#">
+                <form action=" / action_page.php">
+                    <div style="text-align:center">
+                        <fieldset class="filtro3">
+                            <h3 style="position: absolute; top:-7px; left: 20%; font-family: Arial, Helvetica, sans-serif; color: white;">Bairro</h3>
+                        </fieldset>
+                    </div>
+                </form>
+                </a>
+            </li>
+                <li>
+                    <a href="#">
+                <form action=" / action_page.php">
+                    <div style="text-align:center">
+                        <fieldset class="filtro4">
+                            <h3 style="position: absolute; top:-7px; left: 20%;font-family: Arial, Helvetica, sans-serif; color: white;">Escola</h3>
+                        </fieldset>
+                    </div>
+                </form>
+            </a>
+            </li>
+            <li>
+                    <a href="#">
+                <form action=" / action_page.php">
+                    <div style="text-align:center">
+                        <fieldset class="filtro5">
+                            <h3 style="position: absolute; top:-7px; left: 17%;font-family: Arial, Helvetica, sans-serif; color: white;">Trabalho</h3>
+                        </fieldset>
+                    </div>
+                </form>
+            </a>
+            </li>
+                </ul>
+            </div>
+
+        </body>
+    
+</html>
