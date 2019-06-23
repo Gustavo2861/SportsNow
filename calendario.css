@@ -1,0 +1,377 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", "sans-serif";
+}
+
+*{
+  /*cabeçalho-calendario*/
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 3px;/*tamanho-cabeçalho*/
+}
+
+.menu {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header .logo {
+  color: rgb(0, 0, 0);
+  font-family: fantasy;/*tipo-fonte*/
+  font-size: 50px;/*tamnho-fonte*/
+  font-weight: 300;/*grossura-fonte*/
+  line-height: 80px;
+  float: left;
+}
+
+/*posição-botões*/
+header nav {
+  float: right;
+  line-height: 80px;
+}
+
+/*estrutura-botões*/
+header nav a{
+  display: inline-block;
+  color: #363636;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  line-height: normal;
+  font-size: 15px;
+  font-weight: bold;
+  background: #FFFAFA;
+  border-radius: 45px;
+}
+
+/*botão-menu*/
+header nav a1{
+  display: inline-block;
+  color: #FF8C00;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  line-height: normal;
+  font-size: 15px;
+  font-weight: bold;
+  background: #FFFAFA;
+  border-radius: 45px;
+}
+
+/*caixa-seleção-botões*/
+header nav a:hover{
+  background: #FF8C00;
+  border-radius: 45px;
+  transition: 1s;
+}
+
+/*caixa-seleção-menu*/
+header nav a1:hover{
+  background: #cccccc;
+  border-radius: 45px;
+  transition: 1s;
+}
+
+/*formatação-menu-tamamho-tela*/
+@media screen and (max-width: 950px){
+  header .logo,
+  header nav {
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+}
+
+/*imagem-fundo*/
+#showcase {
+background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://cdn-cv.r4you.co/wp-content/uploads/2017/10/iStock-518873980-1.jpg');/*imagem-com-fundo-mais-escuro*/
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 80vh; 
+}
+
+#showcase h1{
+  color: #fff;
+  text-align: center;
+  margin-top: 155px;
+  font-size: 75px;
+  font-weight: 400;
+  font-family: fantasy;
+  margin-bottom: 20px;
+}
+
+#showcase h2{
+  color: #FF8C00;
+  margin-top: 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: fantasy;
+  margin-bottom: 20px;
+}
+
+#showcase p{
+  color: #FF8C00;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: 200;
+}
+
+.titulo{
+  width: 88%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#newslatter {
+  padding: 40px;
+  color: #fff;
+  background: #fff;
+}
+
+/*fundo*/
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;/*posição-calendario*/
+  background-color: #FF8C00; 
+}
+
+.wrapper section{
+  width: 50%;
+  height: 100vh;
+  background-color: #FF8C00;
+}
+
+section .leftBox{
+  width: 100%;
+  height: 100%;
+  float: left;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+section .leftBox .content{
+  /*cor-texto-descrição*/
+  color: #363636;
+  padding: 10px;
+}
+
+section .leftBox .content h2{
+  position: relative;
+  transform: translate(-50%);
+  margin: -150px;
+  padding: 60px;
+}
+
+section .eventos ul{
+  position: absolute;
+  /*posição-24*/
+  top: 111%;
+  transform: translate(-8%);
+  margin: 0;
+  padding: 40px;
+  box-sizing: border-box;
+
+}
+
+section .eventos ul li{
+  /*fundo-descrição-texto*/
+  list-style: none;  
+  background: #fff;
+  box-sizing: border-box;
+  height: 200px;
+  margin: 15px 0;
+}
+
+section .eventos ul li .time{
+  position: relative;
+  padding: 20px;
+  background: #363636;
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: center; 
+  transition: .5s;
+}
+
+section .eventos ul li:hover .time{
+  background: rgb(0, 0, 0, 0.9); 
+}
+
+section .eventos ul li .time h2{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 40px;
+  line-height: 30px;
+}
+
+section .eventos ul li .time h2 span{
+  font-size: 30px;
+}
+
+section .eventos ul li .detalhes{
+  padding: 20px;
+  background: #fff;
+  box-sizing: border-box;
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+/*titulo-descriçao*/
+section .eventos ul li .detalhes h3{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 22px; 
+}
+
+/*texto-descrição*/
+section .eventos ul li .detalhes p{
+  position: relative;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 16px; 
+}
+
+
+/*botão
+section .eventos ul li .detalhes a{
+  display: inline block;
+  text-decoration: none;
+  padding: 3px 7px;
+  border: 2px solid #363636;
+  margin-top: 15px;
+  font-size: 14px;
+  transition: 5s;
+}
+
+section .eventos ul li .detalhes a:hovet{
+  background: #363636;
+  color: #fff
+  border-color: #363636;
+}
+*/
+
+/*Fundo-Calendario*/
+.calendario{
+  margin: auto;
+  font-weight: 500;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.2);/*Sobra*/
+}
+
+.mes{
+  display: flex;/*alinhar-flechas*/
+  justify-content: space-between;/*posição-titulos*/
+  align-items: center;/*flechas-centro*/
+  width: 100%;
+  text-align: center;/*posição-titulo1*/
+  background-color:#363636;
+  color: #fff;/*cor do titulo 1 e 2*/
+  padding: 40px 30px;/*tamanho-cabeçalho-calendario*/
+}
+
+.semanas{
+  display: flex;/*alinhar-semanas*/ 
+  background-color: #FFE4B5;
+  color: #363636; 
+  padding: 7px 0;
+}
+
+.dias{
+  display: flex;/*alinhar-dias*/
+  flex-wrap: wrap;/*posição-dias*/
+  font-weight: 300;
+  padding: 10px 0;/*espaço-entre-semana*/
+}
+
+.dias div {
+  text-align: center;
+  margin-bottom: 10px;/*espaço-entre-dias*/
+  padding: 10px 0;
+  transition: all 0.4s;
+}
+
+/*separação/espaços-dias-semanas*/
+.semanas div,
+.dias div {
+  width: 14.28%;
+  text-align: center;
+}
+
+/*marcação-dias*/
+.dias div:hover {
+  background-color: #FF7F00;
+  cursor: pointer;
+} 
+
+/*marcação-dia-hoje*/
+.hoje {
+  background-color: #FFE4B5;
+  color: #363636;
+
+}
+
+.evento {
+  background-color: #FF7F00;
+  color: #363636;
+}
+
+/*dias-outro-mes*/
+.data_privada{
+  color: #BEBEBE;
+}
+
+/*tamanho-calendario*/
+#mes {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+/*flechas-sombra-alinhada*/
+.flecha_esq,
+.flecha_dir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(0, 0, 0, 0.1);
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+/*marcação-flecas*/
+.flecha_esq:hover,
+.flecha_dir:hover {
+  background-color: rgb(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#fundo{
+padding: 60px;
+  color: #FF8C00;
+  background: #FF8C00;
+}
