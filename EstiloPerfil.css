@@ -1,0 +1,110 @@
+body {
+    background-image:url('https://img.elo7.com.br/product/zoom/1767A05/painel-campo-de-futebol-festa-futebol.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat center center fixed;
+}
+
+div#geral {
+    display: block;
+    background-color: darkgoldenrod;
+    width: 800px;
+    height: auto;
+    margin: -10px auto 0px auto;
+}
+
+header {
+    display: block;
+    position: absolute;
+    width: 800px;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    font-family: fantasy,sans-serif;
+    text-align: center;
+}
+
+header ul {
+    display: inline-block;
+    text-align: center;
+    right: 10%;
+}
+
+header li {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: darkorange;
+    padding: 5px;
+    transition: 1s;
+    right: 5%;
+}
+
+header li:hover {
+    background-color: gray;
+}
+
+#pelada {
+    display: block;
+    width: 550px;
+    float: right;
+    margin: 125px 0px 0px 0px;
+}
+
+#abas {
+    display: block;
+    width: 250px;
+    float: left;
+    margin: 125px 0px 0px 0px;
+    background-color: orange;
+    height: 100%;
+}
+
+nav#navegacao ul {
+    display: block;
+    padding: 2px;
+}
+
+nav#navegacao li {
+    display: block;
+    background-color: coral;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+nav#navegacao li:hover {
+    background-color: black;
+    color: white;
+}
+
+#pelada ul {
+    display: block;
+    background-color: white;
+    padding: 2px;
+    height: 100%;
+}
+
+#pelada li {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+#pelada li:hover {
+    background-color: gray;
+}
+
+#abas img {
+    height: 35%;
+}
+
+#abas p {
+    text-align: center;
+    background-color: coral;
+}
