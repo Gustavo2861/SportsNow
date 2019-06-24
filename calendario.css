@@ -19,7 +19,7 @@ header {
 
 .menu {
   width: 90%;
-  max-width: 1000px;
+  max-width: 1300px;
   margin: auto;
   overflow: hidden;
 }
@@ -104,7 +104,7 @@ height: 80vh;
 #showcase h1{
   color: #fff;
   text-align: center;
-  margin-top: 155px;
+  margin-top: 270px;
   font-size: 75px;
   font-weight: 400;
   font-family: fantasy;
@@ -145,7 +145,7 @@ height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 110vw;
   height: 100vh;/*posição-calendario*/
   background-color: #FF8C00; 
 }
@@ -180,8 +180,8 @@ section .leftBox .content h2{
 section .eventos ul{
   position: absolute;
   /*posição-24*/
-  top: 111%;
-  transform: translate(-8%);
+  top: 118%;
+  transform: translate(-20%);
   margin: 0;
   padding: 40px;
   box-sizing: border-box;
