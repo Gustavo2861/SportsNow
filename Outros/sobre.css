@@ -1,0 +1,118 @@
+body{
+    display: block;
+    margin: 8px;
+    margin-top: 120px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    background-image:url('https://img.elo7.com.br/product/zoom/1767A05/painel-campo-de-futebol-festa-futebol.jpg'); 
+    max-width: 100%; 
+    height: auto;
+    }
+h1 {
+    font-size: 70px;
+    color:white;
+    text-align: center;
+}
+
+h2{
+font-size: 40px;
+text-align: center;
+}
+
+h3 {
+text-align: right;
+position: absolute;
+color: black;
+}
+
+h4 {
+font-size: 20px;
+color: white;
+}
+
+h5{
+color: white;
+font-size: 15px;
+}
+
+p{
+
+text-justify: auto;
+text-align:justify;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+a { 
+color: inherit;
+text-decoration: none;
+}
+
+.faixa{
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 35%;
+    
+}
+
+.menu{
+    width: 10%;
+    height: 60%;
+    background-color: black;
+    justify-content: left;
+    position: absolute;
+    top: 38%;
+    border-radius: 10px;
+    
+}
+
+.home{
+    width: 30px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+.calendar{
+    width: 20px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+.time{
+    width: 35px;
+    position: absolute;
+    top: 13%;
+    left: 10%;
+}
+
+.Peladas{
+    width: 25px;
+    position: absolute;
+    top: 37%;
+    left: 10%;
+}
+
+
+.logo{
+     position: absolute;
+     left: 1%;
+     top:  3%;
+}
+
+.boxText{
+    background-color: rgb(63, 62, 62, 0.8);
+    border-radius: 10px;
+    width: 70%;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+
+}
