@@ -1,0 +1,138 @@
+body{
+    background-color:rgb(255, 81, 0);
+    display: block;
+    margin: 8px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    }
+
+h1 {
+    
+    color:white;
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    
+}
+.criarTime{
+    width: 30%;
+    background-color: whitesmoke;
+    display:initial;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: rgb(255, 81, 0);
+    color: whitesmoke;
+    width: 55%;
+    height: 6%;
+}
+
+a { 
+color: inherit;
+text-decoration: none;
+}
+
+#progresso{
+	counter-reset: my-sec-counter;
+	margin: 20px auto 40px -50px;
+	overflow: hidden;
+    font-size: 0.5;
+}
+	li{
+		position: relative;
+		text-transform: uppercase;
+		color: white;
+		list-style-type: none;
+		width: 33.333333333%;
+		float: left;
+		text-align: center;
+		line-height: 30px;
+        text-shadow: 0px 1px 3px rgba(0,0,0,0.35);
+    }
+
+		::before{ /*Número do processo*/
+            counter-increment: my-sec-counter 1;
+            content: counter(my-sec-counter);
+			width: 22px;
+			height: 22px;
+			display: block;
+			margin: 0 auto 0 auto;
+			background: white;
+			color: darkblue;
+			border-radius: 2px;
+			line-height: 22px;
+			position: inherit;
+			z-index: 1;
+            box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.35);
+        }
+		::after{ /*Linha do processo*/
+            content: "";
+			width: 100%;
+			height: 2px;
+			background: white;
+			position: absolute;
+			left: -50%;
+            top: 10px;
+        }
+		:first-child::after{
+            display: none;
+        }
+	li.ativo::before, li.ativo::after{
+		background: darkblue;
+		color: white;
+    }
+#form{
+	width: 525px !important;
+	height: auto;
+	margin: 0 auto 0 auto !important;
+}
+
+input{
+display: block;
+width: 95%;
+height: 50px;
+padding: 10px;
+border-radius: 2px;
+border: 1px solid #D1D1D1;
+margin: 0px 0px 10px 0px;
+font-size: 1rem;
+}
+
+select{
+			display: block;
+			appearance: none;
+			width:100%;
+			height: 50px;
+			border: 1px solid #d1d1d1;
+			padding: 10px;
+			font-size: 1rem;
+			background: url('http://i67.tinypic.com/2mwbep5.png') no-repeat center right;
+            cursor: pointer;
+            background-color: white;
+}
+
+input[type=radio]{
+    display: block;
+    width: 95%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #D1D1D1;
+    margin: 0px 0px 10px 0px;
+    font-size: 1rem;
+}
