@@ -48,14 +48,14 @@ header li:hover {
     display: block;
     width: 550px;
     float: right;
-    margin: 125px 0px 0px 0px;
+    margin: 70px 0px 0px 0px;
 }
 
 #abas {
     display: block;
-    width: 250px;
+    width: 300px;
     float: left;
-    margin: 125px 0px 0px 0px;
+    margin: 90px 0px 0px 0px;
     background-color: orange;
 }
 
@@ -101,7 +101,7 @@ nav#navegacao li:hover {
 }
 
 #abas img {
-    height: 35%;
+    height:400px;
 }
 
 #abas p {
