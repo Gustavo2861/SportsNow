@@ -7,7 +7,7 @@ body {
 div#geral {
     display: block;
     background-color: darkgoldenrod;
-    width: 800px;
+    
     height: auto;
     margin: -10px auto 0px auto;
 }
@@ -15,9 +15,9 @@ div#geral {
 header {
     display: block;
     position: absolute;
-    width: 800px;
-    background-color: black;
-    color: white;
+    width: 1890px;
+    background-color: white;
+    color: black;
 }
 
 header h1 {
@@ -57,7 +57,6 @@ header li:hover {
     float: left;
     margin: 125px 0px 0px 0px;
     background-color: orange;
-    height: 100%;
 }
 
 nav#navegacao ul {
@@ -84,6 +83,7 @@ nav#navegacao li:hover {
     background-color: white;
     padding: 2px;
     height: 100%;
+    width: 100%;
 }
 
 #pelada li {
@@ -113,3 +113,83 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+header {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 3px;/*tamanho-cabeçalho*/
+  }
+  
+.menu {
+    width: 90%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  header .logo {
+    color: rgb(0, 0, 0);
+    font-family: fantasy;/*tipo-fonte*/
+    font-size: 50px;/*tamnho-fonte*/
+    font-weight: 300;/*grossura-fonte*/
+    line-height: 80px;
+    float: left;
+  }
+  
+  /*posição-botões*/
+  header nav {
+    float: right;
+    line-height: 80px;
+  }
+  
+  /*estrutura-botões*/
+  header nav a{
+    display: inline-block;
+    color: #363636;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: bold;
+    background: #FFFAFA;
+    border-radius: 45px;
+  }
+  
+  /*botão-menu*/
+  header nav a1{
+    display: inline-block;
+    color: #FF8C00;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: bold;
+    background: #FFFAFA;
+    border-radius: 45px;
+  }
+  
+  /*caixa-seleção-botões*/
+  header nav a:hover{
+    background: #FF8C00;
+    border-radius: 45px;
+    transition: 1s;
+  }
+  
+  /*caixa-seleção-menu*/
+  header nav a1:hover{
+    background: #cccccc;
+    border-radius: 45px;
+    transition: 1s;
+  }
+  
+  /*formatação-menu-tamamho-tela*/
+  @media screen and (max-width: 950px){
+    header .logo,
+    header nav {
+      width: 100%;
+      text-align: center;
+      line-height: 100px;
+  }
+  }

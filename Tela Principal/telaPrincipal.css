@@ -19,7 +19,7 @@ body{
   
   .menu {
     width: 90%;
-    max-width: 1300px;
+    max-width: 100%;
     margin: auto;
     overflow: hidden;
   }
@@ -275,10 +275,9 @@ body{
   
   /*Fundo-Calendario*/
   .calendario{
-    margin: auto;
+    margin: 0%;
     font-weight: 500;
-    background-color: #fff;
-    box-shadow: 0px 0px 15px 3px rgb(0, 0, 0, 0.2);/*Sobra*/
+    height: 90%;
   }
   
   .mes{
@@ -381,3 +380,22 @@ body{
     color: #363636;
     background: #363636;
   }
+
+  .boxText{
+    color: white;
+    
+
+}
+
+.logo{
+  width:200px; 
+  left: 10%;
+}
+
+h1 {
+  font-size: 40px;
+  color:black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
