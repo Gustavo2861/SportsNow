@@ -48,7 +48,7 @@ header li:hover {
     display: block;
     width: 550px;
     float: right;
-    margin: 70px 0px 0px 0px;
+    margin: 74px 1037px 0px 0px;
 }
 
 #abas {
@@ -57,6 +57,7 @@ header li:hover {
     float: left;
     margin: 90px 0px 0px 0px;
     background-color: orange;
+    height: 90.9%;
 }
 
 nav#navegacao ul {
@@ -83,18 +84,20 @@ nav#navegacao li:hover {
     display: block;
     background-color: white;
     padding: 2px;
-    height: 100%;
-    width: 100%;
+    height: 90.5%;
+    width: 180%;
 }
 
 #pelada li {
     display: block;
     background-color: black;
     color: white;
-    padding: 5px;
+    padding: 15px;
     margin: 2px;
     border-radius: 5px;
     transition: 1s;
+    position: relative;
+    top: 23%;
 }
 
 #pelada li:hover {
@@ -121,6 +124,7 @@ header {
     background: #fff;
     margin-bottom: 3px;/*tamanho-cabeçalho*/
   }
+  
   
 .menu {
     width: 90%;
@@ -236,7 +240,7 @@ header {
     width:400px;
     position: absolute;
     left: 20%;
-    top: 10%;
+    top: 15%;
     background-color: white;
     border-color: rgb(255, 115, 0);
     }   
@@ -244,4 +248,103 @@ header {
     h4 {
         font-size: 20px;
         color: white;
+        }
+
+        .filtro1{
+            width: 5%;
+            height: 3%;
+            background-color: black;
+            justify-content: left;
+            position: absolute;
+            top: 22%;
+            left: 20%;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px rgba(0,0,0,1);
+        }
+        
+        .filtro2{
+            width: 5%;
+            height: 3%;
+            background-color: black;
+            justify-content: left;
+            position: absolute;
+            top: 22%;
+            left: 27%;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px rgba(0,0,0,1);
+        }
+        
+        .filtro3{
+            width: 5%;
+            height: 3%;
+            background-color: black;
+            justify-content: left;
+            position: absolute;
+            top: 22%;
+            left: 34%;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px rgba(0,0,0,1);
+        }
+        
+        .filtro4{
+            width: 5%;
+            height: 3%;
+            background-color: black;
+            justify-content: left;
+            position: absolute;
+            top: 22%;
+            left: 41%;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px rgba(0,0,0,1);
+        }
+        
+        .filtro5{
+            width: 5%;
+            height: 3%;
+            background-color: black;
+            justify-content: left;
+            position: absolute;
+            top: 22%;
+            left: 48%;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px rgba(0,0,0,1);
+        }
+
+        #content ul li:hover h3{
+            border: 1px solid f00;
+            opacity:1;
+            -moz-opacity:1;
+            filter:alpha(opacity=100);
+            background-color:rgb(255, 81, 0);
+            width: 100%; 
+            height: 100%; 
+            border-radius: 15px;
+        
+        }
+        
+        #content ul li a h3{ /* Espaço da mensagem que ira aparecer */
+            text-align: justify;
+            text-align: initial;
+            width:300px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        }
+        
+            /* Carecteristicas de tudo que esta dentro da Div e com Link */
+        #content ul li a{
+            display:block;
+            font-size:14px;
+            margin:0 auto;
+            padding: 10px;
+            float:left;
+        }  
+        
+        .avisos{
+            width: 15%;
+            height: 55%;
+            background-color:orange;
+            justify-content: left;
+            position: absolute;
+            top: 9%;
+            left: 68.2%;
         }
