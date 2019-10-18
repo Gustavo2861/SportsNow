@@ -15,9 +15,6 @@ Plataforma digital que tem o objetivo de facilitar o encontro e fomação de tim
 - Login
 - Cadastro
 - Perfil
-- Interclasse
-- Oficial
-- Peladas
 - Calendário
 - Criação de Times
 - Gerenciamento de Times
