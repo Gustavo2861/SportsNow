@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="../Outros/Img/logo.png" />
+<title>Criação de Time</title>
+<link rel="shortcut icon" href="../Outros/Img/logo.png">
+<link rel="stylesheet" href="criarTime.css">
+  </head>
+  <body>
+  <h1>Sports Now</h1>   
+
+<div class="panel-body">
+    <form action=" / action_page.php">
+      <div style="text-align: center">
+        <fieldset class="criarTime">
+            <h3 class="panel-title">Criação do Time</h3> 
+            <h5>Informações do Time</h5>   
+            <div class="row">
+                <input type="text" name="nome" id="nome" class="form-control input-sm" placeholder="Nome do Time">
+                <input type="text" name="endereco" id="endereco" class="form-control input-sm" placeholder="Local">
+                <input type="date" name="data" id="data" class="form-control input-sm" placeholder="Data">
+                <input type="time" name="horario" id="horario" class="form-control input-sm" placeholder="Horário">
+
+                <div class="form-group">
+                <select id=mol>
+                <option value="0" selected="selected">ESCOLHA UMA MODALIDADE</option>
+                <option value="1">Futebol</option>
+                <option value="2">Volei</option>
+                <option value="3">Basquete</option>
+                <option value="4">Ping-Pong</option>
+                <option value="5">Xadrez</option>
+                <option value="6">Handebol</option>
+                </select>
+                </div>
+                </div>
+
+                <p>Você concorda com os <a href="">termos de uso?</a></p>
+                <p>
+                SIM: <input type="radio" name="termos" /><br />
+                NÃO: <input type="radio" name="termos" /><br />
+                </p>
+                <input type="button" value="Register" class="btn">
+                <input type="button" name="proximo" value="Próximo" class="btn">
+    </fieldset>
+    </div>
+  </form>
+</div>
+</body>
+</html>
